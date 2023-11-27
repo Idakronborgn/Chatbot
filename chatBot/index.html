@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    
+    <script src="chatbot.js" defer ></script>
+    <title>Chatbot</title>
+</head>
+<body>
+    <h1>Chatbot for SiteSage</h1>
+    
+    <section>
+    <button class="chatbot-toggler">
+        <span class="material-symbols-outlined">sms</span>
+        <span class="material-symbols-outlined">expand_more</span>
+    </button>
+
+    <!-- chatbox section begins -->
+    <div class="chatbot">
+        <header class="chat-header">
+            <img src="./img/image.png" alt="chatbot image" class="company-img"><h2>ChatBot</h2>
+            <span class="close-btn material-symbols-outlined">close</span>
+        </header>
+        <ul class="chatbox">
+            <!-- ai messenger -->
+            <li class="chat incoming">
+                <span class="chat-picture"><img src="./img/image.png" alt="chatbot image" class="company-img"></span>
+                <p>Hey der! 🤚 Hvordan kan jeg hjælpe dig på vej?</p>
+            </li>
+              <!-- customers messenger -->
+            
+        </ul>
+
+        <div class="chat-input">
+            <textarea placeholder="Write a replay..." required></textarea>
+            <span id="send-btn" class="material-symbols-outlined">Send</span>
+        </div>
+
+    </div>
+</section>
+    
+</body>
+</html>
